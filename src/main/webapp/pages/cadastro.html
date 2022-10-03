@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="../resources/css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="text-box">
+			<h1>
+				Cadastre seu pagamento aqui
+			</h1>
+		</div>
+		<form class="form-cadastrar" action="../cadastrar" method="post">
+		
+			<table class="table">
+				<tbody>
+					<tr>
+						<td id="td">
+							<label for="pagador" class="label">Pagador</label>
+						</td>
+						<td id="td" class="td-right">
+							<input name="pagador" class="input-text" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td id="td">
+							<label for="beneficiario" class="label">Beneficiario</label>
+						</td>
+						<td id="td" class="td-right">
+							<input name="beneficiario" class="input-text" type="text">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="valor" class="label">Valor</label>
+						</td>
+						<td>
+							<input name="valor" class="input-text" type="number">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="boleto">Boleto Bancário</label>
+						</td>
+						<td>
+							<input type="radio" id="boleto" name="metodoPagamento" value="boleto">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="cartao">Cartão de crédito</label>
+						</td>
+						<td>
+							<input type="radio" id="cartao" name="metodoPagamento" value="cartao">
+						</td>
+					</tr>
+					
+					<tr>
+						<td>&nbsp</td>
+						<td class="td-left">
+							<input type="submit" value="Cadastrar" class="btn">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</form>
+	</div>
+</body>
+</html>
