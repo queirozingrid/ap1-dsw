@@ -54,11 +54,11 @@ public class CadastroServlet extends HttpServlet{
 		// Devolver os dados dinamicamente para o usuário
 		PrintWriter out = resp.getWriter();
 		out.write(""
-					+  "<head>"
+					+ "<head>"
 					+ 		"<title>Dados</title>"
 					+ 		"<link rel='stylesheet' href='./resources/css/main.css'>"
-					+  "</head>"
-					+ "<div class='container'>"
+					+ "</head>"
+					+ "<div class='dynamic-container'>"
 					+ 	"<div class='text-box'>"
 					+		"<h1>Dados cadastrados</h1>"
 					+ 	"</div>"
@@ -82,8 +82,8 @@ public class CadastroServlet extends HttpServlet{
 		}
 		out.write(""
 				+ 		"</ol>"
-				+		"<a href='./index.html'><button class='btn'>Voltar</button></a>"
 				+ 	"</div>"
+				+		"<a href='./index.html'><button class='btn-voltar'>Voltar</button></a>"
 				+ "</div>"
 		);
 	}

@@ -1,12 +1,152 @@
 @charset "UTF-8";
 
-.container {
+body {
 	width: 100vw;
 	height: 100vh;
-	background: #6C7A89;
+	background: #FFD700;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.li {}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-family: monospace;
+	color: #8B008B;
+	font-size: 50px;
+}
+p {
+	font-family: monospace;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+.div-list {
+	width: 100%;
+}
+.btn {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 30px;
+	background-color: #8B008B;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	cursor: pointer;
+}
+li {
+	list-style-type: none;
+}
+.form-cadastrar {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.table {
+	width: 100%;
+	background-color: white;
+	padding: 5px;
+	border: 1px solid #8B008B;
+}
+#td {
+	height: 80px;
+}
+.td-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.input-text {
+	font-family: monospace;
+	width: 80%;
+	height: 30px;
+	margin-right: 5px;
+	text-align: center;
+}
+.label {
+	font-family: monospace;
+	font-size: 20px;
+	margin-left: 5px;
+	width: 100%;
+	color: blue;
+	font-style: bold;
+}
+.form-cadastrar .btn {
+	margin-top: 30px;
+}
+.form-jogar {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-jogar .input-text {
+	width: 50%;
+	margin-right: 0px;
+	font-size: 20px;
+}
+.form-jogar .btn {
+	width: 50%;
+	margin-top: 20px;
+}
+.text-box a .btn-voltar {
+	background-color: #8B008B;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	cursor: pointer;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+}
+.dynamic-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dynamic-container .div-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0px;
+}
+.dynamic-container a .btn-voltar {
+	background-color: #8B008B;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family: monospace;
+	cursor: pointer;
+	width: 500px;
+	height: 50px;
+	margin-top: 20px;
+}
+.dynamic-container .text-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+

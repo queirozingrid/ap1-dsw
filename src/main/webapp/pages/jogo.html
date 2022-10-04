@@ -9,11 +9,13 @@
 	<div class="container">
 		<div class="text-box">
 			<h1>
-				Qual número você acha que será sorteado?
+				Qual número você acha que será sorteado? (entre 1 e 5)
 			</h1>
 		</div>
 		<form class="form-jogar" action="../jogar" method="post">
+			<input class="input-text" type="number" name="numeroDigitado" min="1" max="5"/>
 			
+			<input class="btn" value="Jogar" type="submit"/>
 		</form>
 	</div>
 </body>
